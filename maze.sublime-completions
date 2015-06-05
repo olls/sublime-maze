@@ -2,6 +2,10 @@
     "scope": "source.maze",
 
     "completions": [
-        { "trigger": "%", "contents": "U" }
+        { "trigger": "%U", "contents": "%U" },
+        { "trigger": "%D", "contents": "%D" },
+        { "trigger": "%L", "contents": "%L" },
+        { "trigger": "%R", "contents": "%R" },
+        { "trigger": "%N", "contents": "%N" }
     ]
 }
