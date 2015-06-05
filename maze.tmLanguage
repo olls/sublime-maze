@@ -114,24 +114,34 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator</string>
+					<string>constant.numeric</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>string.quoted.double</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>7</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric</string>
+				</dict>
+				<key>8</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.double</string>
+				</dict>
+				<key>9</key>
 				<dict>
 					<key>name</key>
 					<string>string.quoted.single</string>
@@ -140,7 +150,7 @@
 			<key>comment</key>
 			<string>Assignment function</string>
 			<key>match</key>
-			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:([-+*/]=) *(-?[0-9]+)|(=) *(?:(-?[0-9]+)|("[^"]*")|('[^']*')))</string>
+			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:([-+*/]=) *(-)?([0-9]+)|(=) *(?:(-)?([0-9]+)|("[^"]*")|('[^']*')))</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
@@ -160,14 +170,19 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>constant.language</string>
+					<string>constant.numeric</string>
 				</dict>
 				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>constant.language</string>
+				</dict>
+				<key>6</key>
 				<dict>
 					<key>name</key>
 					<string>constant.language</string>
@@ -176,7 +191,7 @@
 			<key>comment</key>
 			<string>Equality Function</string>
 			<key>match</key>
-			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:IF|if) *(?:([&lt;&gt;]=?|==) *(-?[0-9]+)|\*[\*A-Za-z0-9]) *(?:THEN|then) *(%[LRUDNlrudn]) *(?:ELSE|else) *(%[LRUDNlrudn])</string>
+			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:IF|if) *(?:([&lt;&gt;]=?|==) *(-)?([0-9]+)|\*[\*A-Za-z0-9]) *(?:THEN|then) *(%[LRUDNlrudn]) *(?:ELSE|else) *(%[LRUDNlrudn])</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
