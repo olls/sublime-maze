@@ -66,7 +66,7 @@ patterns:
 
 - comment: Equality Function
   name: keyword.other
-  match: '([A-Za-z][A-Za-z0-9]) *-> *(IF|if) *(?:([<>]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(THEN|then) *(%[LRUDNlrudn]) *(ELSE|else) *(%[LRUDNlrudn])'
+  match: '([A-Za-z][A-Za-z0-9]) *-> *(IF|if) *(?:([<>]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(THEN|then) *(%[LRUDNlrudn])(?: *(ELSE|else) *(%[LRUDNlrudn]))?'
   captures:
     '1': {name: entity.name.function}
     '2': {name: keyword.control}

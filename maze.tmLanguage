@@ -211,7 +211,7 @@
 			<key>comment</key>
 			<string>Equality Function</string>
 			<key>match</key>
-			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(IF|if) *(?:([&lt;&gt;]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(THEN|then) *(%[LRUDNlrudn]) *(ELSE|else) *(%[LRUDNlrudn])</string>
+			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(IF|if) *(?:([&lt;&gt;]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(THEN|then) *(%[LRUDNlrudn])(?: *(ELSE|else) *(%[LRUDNlrudn]))?</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
