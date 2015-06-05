@@ -106,32 +106,32 @@
 					<key>name</key>
 					<string>entity.name.function</string>
 				</dict>
-				<key>3</key>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.operator</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator</string>
-				</dict>
-				<key>7</key>
-				<dict>
-					<key>name</key>
 					<string>constant.numeric</string>
 				</dict>
-				<key>8</key>
+				<key>6</key>
 				<dict>
 					<key>name</key>
 					<string>string.quoted.double</string>
 				</dict>
-				<key>9</key>
+				<key>7</key>
 				<dict>
 					<key>name</key>
 					<string>string.quoted.single</string>
@@ -140,7 +140,7 @@
 			<key>comment</key>
 			<string>Assignment function</string>
 			<key>match</key>
-			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(([-+*/]=) *([0-9]+)|(=) *(([0-9]+)|("[^"]*")|('[^']*')))</string>
+			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:([-+*/]=) *(-?[0-9]+)|(=) *(?:(-?[0-9]+)|("[^"]*")|('[^']*')))</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
