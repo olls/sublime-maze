@@ -162,10 +162,15 @@
 					<key>name</key>
 					<string>entity.name.function</string>
 				</dict>
+				<key>10</key>
+				<dict>
+					<key>name</key>
+					<string>constant.language</string>
+				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator</string>
+					<string>keyword.control</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -175,28 +180,38 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>constant.numeric</string>
+					<string>keyword.operator</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag</string>
+					<string>constant.numeric</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>constant.language</string>
+					<string>entity.name.tag</string>
 				</dict>
 				<key>7</key>
 				<dict>
 					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+				<key>8</key>
+				<dict>
+					<key>name</key>
 					<string>constant.language</string>
+				</dict>
+				<key>9</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control</string>
 				</dict>
 			</dict>
 			<key>comment</key>
 			<string>Equality Function</string>
 			<key>match</key>
-			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(?:IF|if) *(?:([&lt;&gt;]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(?:THEN|then) *(%[LRUDNlrudn]) *(?:ELSE|else) *(%[LRUDNlrudn])</string>
+			<string>([A-Za-z][A-Za-z0-9]) *-&gt; *(IF|if) *(?:([&lt;&gt;]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(THEN|then) *(%[LRUDNlrudn]) *(ELSE|else) *(%[LRUDNlrudn])</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
