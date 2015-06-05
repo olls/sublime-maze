@@ -66,14 +66,15 @@ patterns:
 
 - comment: Equality Function
   name: keyword.other
-  match: '([A-Za-z][A-Za-z0-9]) *-> *(?:IF|if) *(?:([<>]=?|==) *(-)?([0-9]+)|\*[\*A-Za-z0-9]) *(?:THEN|then) *(%[LRUDNlrudn]) *(?:ELSE|else) *(%[LRUDNlrudn])'
+  match: '([A-Za-z][A-Za-z0-9]) *-> *(?:IF|if) *(?:([<>]=?|==) *(-)?([0-9]+)|(\*[\*A-Za-z0-9])) *(?:THEN|then) *(%[LRUDNlrudn]) *(?:ELSE|else) *(%[LRUDNlrudn])'
   captures:
     '1': {name: entity.name.function}
     '2': {name: keyword.operator}
     '3': {name: keyword.operator}
     '4': {name: constant.numeric}
-    '5': {name: constant.language}
+    '5': {name: entity.name.tag}
     '6': {name: constant.language}
+    '7': {name: constant.language}
 
 - comment: Function cell
   name: entity.name.function
