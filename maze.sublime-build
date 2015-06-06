@@ -1,0 +1,10 @@
+{
+	"selector": "source.maze",
+	"cmd": ["maze", "$file"],
+
+	"variants": [
+		{ "name": "Debug",
+		  "cmd": ["maze", "$file", "-dcs"]
+		}
+	]
+}
