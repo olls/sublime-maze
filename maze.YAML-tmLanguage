@@ -38,6 +38,10 @@ patterns:
   name: support.function
   match: '>>'
 
+- comment: Ln out
+  name: support.function
+  match: '>/'
+
 - comment: In
   name: support.function
   match: '<<'

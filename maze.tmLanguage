@@ -76,6 +76,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Ln out</string>
+			<key>match</key>
+			<string>&gt;/</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>In</string>
 			<key>match</key>
 			<string>&lt;&lt;</string>
